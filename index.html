@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <header class="logo">
+          <img src="./assets/images/logo.svg" alt="" />
+        </header>
+        <ul class="navlinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="news-section">
+      <div class="container">
+        <section class="read">
+          <div class="img-display">
+            <img
+              src="./assets/images/image-web-3-desktop.jpg"
+              alt="web-3"
+              class="desktop-hero"
+            />
+            <img
+              src="assets/images/image-web-3-mobile.jpg"
+              alt="web-3"
+              class="mobile-hero"
+            />
+          </div>
+          <div class="news-preview">
+            <header>
+              <h1>The bright future of web 3.0?</h1>
+            </header>
+            <div class="news-preview-text">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </section>
+        <aside class="new-news">
+          <h1>New</h1>
+          <div class="news">
+            <h3>Hydrogen Vs electric cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div class="border"></div>
+          <div class="news">
+            <h3>The downsides of ai artistry</h3>
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="border"></div>
+          <div class="news">
+            <h3>is vc funding drying up?</h3>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="articles">
+      <div class="container">
+        <article class="news-article">
+          <div class="img-box">
+            <img src="assets/images/image-retro-pcs.jpg" alt="" />
+          </div>
+
+          <div class="article-text">
+            <h1>01</h1>
+            <h4>Reviving retro pc's</h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+        <article class="news-article">
+          <div class="img-box">
+            <img src="assets/images/image-top-laptops.jpg" alt="" />
+          </div>
+
+          <div class="article-text">
+            <h1>02</h1>
+            <h4>Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </article>
+        <article class="news-article">
+          <div class="img-box">
+            <img src="assets/images/image-gaming-growth.jpg" alt="" />
+          </div>
+
+          <div class="article-text">
+            <h1>03</h1>
+            <h4>The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
