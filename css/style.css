@@ -224,7 +224,7 @@ img {
   .navlinks {
     /* display: none; */
     background-color: var(--Off-white);
-    height: 200vh;
+    height: 100vh;
     position: absolute;
     /* right: -1000vh;
     top: -1000vh; */
@@ -232,7 +232,7 @@ img {
     top: -1000vh;
     padding: 80px 0 0 0;
     flex-direction: column;
-    width: 80vh;
+    width: 40vh;
     z-index: 1;
     transition: 0.5s;
   }
@@ -240,7 +240,7 @@ img {
   .active-nav {
     display: flex;
     right: 0;
-    top: 20vh;
+    top: 10vh;
   }
 
   .rotate .line-1 {
